@@ -30,7 +30,6 @@ public class AddressBook {
                 System.out.println("Phone: " + contact.getPhone());
                 found = true;
             }
-            break;
         }
         if (!found){
             System.out.println("Not found");

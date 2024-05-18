@@ -8,7 +8,7 @@ public class Application {
         System.out.println("3. Display contacts");
         System.out.println("4. Exit");
     }
-    private static Scanner sc = new Scanner(System.in);
+    private static final Scanner sc = new Scanner(System.in);
     public void start(){
         while (true){
             menu();
